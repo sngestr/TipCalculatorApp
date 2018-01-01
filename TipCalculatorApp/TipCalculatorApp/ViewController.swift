@@ -27,6 +27,14 @@ class ViewController: UIViewController {
 
     @IBAction func onTap(_ sender: Any) {
         view.endEditing(true);
+        if(billField.text == "") {
+            billField.text = "0.00";
+        }
+    }
+    @IBAction func changeFieldValue(_ sender: Any) {
+        if(billField.text == "0.00") {
+            billField.text = "";
+        }
     }
     
     @IBAction func calculateTip(_ sender: Any) {
