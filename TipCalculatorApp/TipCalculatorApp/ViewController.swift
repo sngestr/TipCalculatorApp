@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        billField.becomeFirstResponder();
     }
 
     override func didReceiveMemoryWarning() {
@@ -36,7 +37,6 @@ class ViewController: UIViewController {
             billField.text = "";
         }
     }
-    
     @IBAction func calculateTip(_ sender: Any) {
         let tipPercentage = [0.15, 0.20, 0.25];
         let bill = Double(billField.text!) ?? 0;
