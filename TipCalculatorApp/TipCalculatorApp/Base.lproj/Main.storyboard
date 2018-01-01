@@ -25,7 +25,7 @@
                                 <rect key="frame" x="-64" y="400" width="502" height="267"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="0.00" borderStyle="roundedRect" textAlignment="right" minimumFontSize="80" translatesAutoresizingMaskIntoConstraints="NO" id="JI4-od-EBM">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" borderStyle="roundedRect" textAlignment="right" minimumFontSize="80" translatesAutoresizingMaskIntoConstraints="NO" id="JI4-od-EBM">
                                 <rect key="frame" x="16" y="82" width="343" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.82925170660018921" green="0.90206599235534668" blue="0.91487139463424683" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
